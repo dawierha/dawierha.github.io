@@ -1,3 +1,19 @@
-name: Daniel Eriksson, projects
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Daniel Eriksson
+email: daniel.e9511@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Do a project, or not do a project?
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dawierha.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  dawierha
+
+# Build settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title

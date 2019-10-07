@@ -1,8 +1,12 @@
 ---
 layout: default
-title: Hank Quinlan, Horrible Cop
 ---
 
+{% capture my_include %}{% include projects.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
+
+<!--
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -21,4 +25,6 @@ title: Hank Quinlan, Horrible Cop
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+
 </div>
+-->
